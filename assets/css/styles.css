@@ -1,1 +1,154 @@
 /* ***** ADD YOUR CUSTOM STUFF HERE! ***** */
+
+/* HEADER */
+
+.btn-primary {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.narrow {
+    max-width: 700px;
+	margin: auto;
+}
+
+.narrow h2 {
+    padding-bottom: 20px;
+}
+
+.narrow p {
+    line-height: 25px;
+    color: #595B60;
+}
+
+header .text-center {
+    padding-top: 250px;
+}
+
+.navbar.scroll {
+    background-color: white;
+    
+}
+
+.nav-link {
+    color: #171519;
+}
+
+/* MAIN */
+main {
+    background-image: url(../images/arrow.png), url(../images/exclaim.png), url(../images/pink-dot.png), url(../images/purple-dot.png);
+    background-repeat: no-repeat;
+    background-position: bottom 150px right 180px, left 200px center, top 500px right 250px, bottom;
+}
+
+.dropdownMenu {
+    max-width: 700px !important;
+	margin: auto;
+    border: lightgray;
+}
+
+.bootstrap-select .dropdown-menu {
+    min-width: 700px !important;
+    margin-left: 0 !important;
+}
+
+.dropdownMenu h3 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.bootstrap-select a {
+    color: #595B60;
+    font-size: 16px;
+    padding-left: 25px;
+    font-weight: 200;
+}
+
+.dropdownMenu .btn-secondary,
+.form-group .btn-secondary {
+    border-radius: 30px;
+    width: 700px;
+    background-color: white;
+    text-align: left;
+}
+
+/* FORM */
+
+main form {
+    max-width: 700px;
+	margin: 100px auto 200px auto;
+    padding: 50px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.25);
+}
+
+form h2,
+.form-row,
+.form-group,
+.form-check {
+    padding-bottom: 35px;
+}
+
+.bootstrap-select:not(.input-group-btn) {
+    border: none !important;
+}
+
+.organization .btn-secondary {
+    width: 600px;
+}
+
+.form-group input,
+.col input {
+    border-radius: 30px;
+}
+
+.form-group input,
+.form-control {
+    padding: 25px;
+}
+
+.form-row input[type=submit],
+.btn-info,
+.modal-content .btn-secondary {
+	border-radius: 54px;
+	font-size: 15px;
+	height: 47px;
+	background: #E30059;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: 0;
+	color: #fff;
+    width: 200px;
+}
+
+.form-row .col-7 p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: -25px;
+}
+
+.message {
+    resize: none;
+    border-radius: 10px;
+}
+
+.form-check {
+    height: 80px;
+}
+
+.form-check input[type=checkbox] {
+    height: 35px;
+    width: 35px;
+}
+
+.form-check label {
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.bootstrap-select:not(.input-group-btn) {
+    border: none !important;
+}
+
+
+
+
+

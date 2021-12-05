@@ -12,10 +12,9 @@ h1 {
 	line-height: 53px;
 	letter-spacing: -1.04px;
 	color: #FFFFFF;
-	max-width: 520px;
+	max-width: 550px;
 	margin: auto;
 }
-
 
 h2 {
 	font-size: 42px;
@@ -59,7 +58,7 @@ header {
 	margin-bottom: 125px;
 	min-height: 608px;
 	background-size: 100% 100%;
-	background-image: url(../images/background-sell_tickets_dark.png);
+	background-image: linear-gradient(rgba(7, 7, 7, 0.70), rgba(0, 0, 0, 0.80)), url(../images/background-sell_tickets_dark.png);
 	background-position: bottom center;
 }
 
@@ -68,14 +67,14 @@ header p {
 	max-width: 470px;
 	text-align: center;
 	margin: 27px auto 0;
-	font-size: 18px
+	font-size: 18px;
 	line-height: 27px;
 	letter-spacing: 0px;
 	color: #FEFEFE;
 }
 
 nav.navbar {
-	padding-top:28px
+	padding-top:28px;
 	padding-bottom: 38px;	
 	margin: 0 auto 150px;
 	opacity: 1;
@@ -313,7 +312,7 @@ select.selectpicker {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.bootstrap-select > .dropdown-toggle:after {
+.bootstrap-select > .dropdown-toggle::after {
   margin-top: -1px;
   color: #E30059;
   border: 0 !important;
@@ -323,7 +322,7 @@ select.selectpicker {
 }
 
 
-.bootstrap-select.show > .dropdown-toggle:after {
+.bootstrap-select.show > .dropdown-toggle::after {
 
   transform: rotate(-90deg);
 }
@@ -563,7 +562,7 @@ select.selectpicker {
   margin-top: -4px;
   z-index: 1;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
@@ -696,7 +695,7 @@ select.selectpicker {
   border-width: 0 0.26em 0.26em 0;
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
-       -o-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 .bootstrap-select.show-menu-arrow.open > .dropdown-toggle,
