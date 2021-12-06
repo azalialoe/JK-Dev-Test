@@ -28,10 +28,10 @@ h2 {
 	background: #F0EFF4;
 	color: #171519;
 	padding-top: 152px;
+  margin-right: 60px;
 }
 
 .bg-F0EFF4 .row div{
-
 	padding-bottom: 152px;
 }
 
@@ -75,9 +75,9 @@ header p {
 
 nav.navbar {
 	padding-top:28px;
-	padding-bottom: 38px;	
+	padding-bottom: 20px;	
 	margin: 0 auto 150px;
-	opacity: 1;
+	opacity: 1;  
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -88,9 +88,14 @@ nav.navbar {
 }
 
 @media (min-width: 1023px) {
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link,
+.bg-F0EFF4 .navbar-nav .nav-link{
 		margin-right: 60px;
 	}
+}
+
+.bg-F0EFF4 .navbar-nav .nav-link {
+  padding:0;
 }
 
 nav .navbar-brand {

@@ -9,6 +9,7 @@
 .narrow {
     max-width: 700px;
 	margin: auto;
+    margin-bottom: 40px;
 }
 
 .narrow h2 {
@@ -24,21 +25,11 @@ header .text-center {
     padding-top: 250px;
 }
 
-.navbar.scroll {
-    background-color: white;
-    
-}
-
 .nav-link {
     color: #171519;
 }
 
 /* MAIN */
-main {
-    background-image: url(../images/arrow.png), url(../images/exclaim.png), url(../images/pink-dot.png), url(../images/purple-dot.png);
-    background-repeat: no-repeat;
-    background-position: bottom 150px right 180px, left 200px center, top 500px right 250px, bottom;
-}
 
 .dropdownMenu {
     max-width: 700px !important;
@@ -54,6 +45,7 @@ main {
 .dropdownMenu h3 {
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .bootstrap-select a {
@@ -78,6 +70,15 @@ main form {
 	margin: 100px auto 200px auto;
     padding: 50px;
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+
+.form {
+    background-image: url(../images/arrow.png), url(../images/exclaim.png), url(../images/pink-dot.png), url(../images/purple-dot.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top 400px left, top 20px right 80px, bottom 10px left 80px;
+    max-width: 900px;
+    margin: auto;
 }
 
 form h2,
@@ -134,6 +135,11 @@ form h2,
     height: 80px;
 }
 
+.form-check a {
+    text-decoration: underline;
+    color: #171519;
+}
+
 .form-check input[type=checkbox] {
     height: 35px;
     width: 35px;
@@ -146,6 +152,37 @@ form h2,
 
 .bootstrap-select:not(.input-group-btn) {
     border: none !important;
+}
+
+/* MODAL */
+
+.modal-content {
+    height: 40vh;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.modal-header {
+    text-align: center;
+    border-bottom: none;
+}
+
+.modal-title {
+    text-align: center;
+    width: 100%;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-body p {
+    line-height: 30px;
+}
+
+.modal-footer {
+    border-top: none;
+    justify-content: center;
 }
 
 
